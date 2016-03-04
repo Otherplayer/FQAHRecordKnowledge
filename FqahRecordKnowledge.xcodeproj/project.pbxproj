@@ -13,6 +13,7 @@
 		8493BFBE1C895FE400617042 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8493BFBC1C895FE400617042 /* Main.storyboard */; };
 		8493BFC01C895FE400617042 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8493BFBF1C895FE400617042 /* Assets.xcassets */; };
 		8493BFC31C895FE400617042 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8493BFC11C895FE400617042 /* LaunchScreen.storyboard */; };
+		8493BFCB1C89608A00617042 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 8493BFCA1C89608A00617042 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		8493BFBF1C895FE400617042 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8493BFC21C895FE400617042 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8493BFC41C895FE400617042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8493BFCA1C89608A00617042 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 		8493BFA71C895FE400617042 = {
 			isa = PBXGroup;
 			children = (
+				8493BFCA1C89608A00617042 /* README.md */,
 				8493BFB21C895FE400617042 /* FqahRecordKnowledge */,
 				8493BFB11C895FE400617042 /* Products */,
 			);
@@ -151,6 +154,7 @@
 			files = (
 				8493BFBB1C895FE400617042 /* ViewController.m in Sources */,
 				8493BFB81C895FE400617042 /* AppDelegate.m in Sources */,
+				8493BFCB1C89608A00617042 /* README.md in Sources */,
 				8493BFB51C895FE400617042 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,6 +302,7 @@
 				8493BFC91C895FE400617042 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
