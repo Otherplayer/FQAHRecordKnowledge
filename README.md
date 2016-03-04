@@ -40,7 +40,22 @@ defaults read /Applications/Xcode.app/Contents/Info DVTPlugInCompatibilityUUID
 ```
 
 ```
+pod repo update
+
+git tag
+git tag 0.0.4
+git tag -d 0.0.4
+git show 0.0.4
+git checkout [tagName]
+git push origin 0.0.4
+git push origin --tags
+
+pod spec lint
+pod trunk register osmk@qq.com 'otherplayer'
+pod trunk push HYQSFlow.podspec
 ```
+
+
 ```
 ```
 ```
