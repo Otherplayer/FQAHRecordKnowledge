@@ -41,7 +41,9 @@ defaults read /Applications/Xcode.app/Contents/Info DVTPlugInCompatibilityUUID
 
 ```
 pod repo update
+```
 
+```
 git tag
 git tag 0.0.4
 git tag -d 0.0.4
