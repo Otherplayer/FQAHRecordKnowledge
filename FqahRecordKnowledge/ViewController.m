@@ -17,11 +17,20 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    NSLog(@"sss%@",self);
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)funAction:(id)sender {
+    NSLog(@"-----");
+    NSArray *logs = @[@"err"];
+    NSLog(@"%@",logs[2]);
+}
+- (IBAction)fun2Action:(id)sender {
+    NSLog(@"---=========");
 }
 
 @end

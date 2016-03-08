@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		840843D01C8EA2B800AA96EA /* HYQHelperLogRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 840843CF1C8EA2B800AA96EA /* HYQHelperLogRecord.m */; };
 		8493BFB51C895FE400617042 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8493BFB41C895FE400617042 /* main.m */; };
 		8493BFB81C895FE400617042 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8493BFB71C895FE400617042 /* AppDelegate.m */; };
 		8493BFBB1C895FE400617042 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8493BFBA1C895FE400617042 /* ViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		840843CE1C8EA2B800AA96EA /* HYQHelperLogRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYQHelperLogRecord.h; sourceTree = "<group>"; };
+		840843CF1C8EA2B800AA96EA /* HYQHelperLogRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYQHelperLogRecord.m; sourceTree = "<group>"; };
 		8493BFB01C895FE400617042 /* FqahRecordKnowledge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FqahRecordKnowledge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8493BFB41C895FE400617042 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8493BFB61C895FE400617042 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -41,6 +44,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		840843CD1C8EA25100AA96EA /* APPLOG */ = {
+			isa = PBXGroup;
+			children = (
+				840843CE1C8EA2B800AA96EA /* HYQHelperLogRecord.h */,
+				840843CF1C8EA2B800AA96EA /* HYQHelperLogRecord.m */,
+			);
+			path = APPLOG;
+			sourceTree = "<group>";
+		};
 		8493BFA71C895FE400617042 = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +73,7 @@
 		8493BFB21C895FE400617042 /* FqahRecordKnowledge */ = {
 			isa = PBXGroup;
 			children = (
+				840843CD1C8EA25100AA96EA /* APPLOG */,
 				8493BFB61C895FE400617042 /* AppDelegate.h */,
 				8493BFB71C895FE400617042 /* AppDelegate.m */,
 				8493BFB91C895FE400617042 /* ViewController.h */,
@@ -155,6 +168,7 @@
 				8493BFBB1C895FE400617042 /* ViewController.m in Sources */,
 				8493BFB81C895FE400617042 /* AppDelegate.m in Sources */,
 				8493BFCB1C89608A00617042 /* README.md in Sources */,
+				840843D01C8EA2B800AA96EA /* HYQHelperLogRecord.m in Sources */,
 				8493BFB51C895FE400617042 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

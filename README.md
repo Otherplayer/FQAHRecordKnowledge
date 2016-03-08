@@ -59,6 +59,10 @@ pod trunk push HYQSFlow.podspec
 
 
 ```
+如果是连接XCode进行调试
+if(isatty(STDOUT_FILENO)) {
+    return;
+}
 ```
 ```
 ```
