@@ -64,8 +64,14 @@ if(isatty(STDOUT_FILENO)) {
     return;
 }
 ```
+
+
 ```
+重启 Xcode 就会重新提示是否允许加载插件了
+defaults delete com.apple.dt.Xcode DVTPlugInManagerNonApplePlugIns-Xcode-7.2.1
 ```
+
+
 ```
 ```
 
